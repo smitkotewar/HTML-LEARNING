@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form in html </title>
+</head>
+<body>
+  <h2>form in html</h2>
+  <form action="" method="post">
+    <label for="fname" textholde="Your first name: ">Your first name: </label>
+    <input type="text" id="fname" minlength="5" maxlength="10" required><br>
+  <label for="mname">Your middle name:</label>
+ <input type="text" id="mname" minlength="5" maxlength="10" required><br>
+ <label for="lname">Your last name:</label>
+ <input type="text" id="lname" minlength="5" maxlength="10" required><br>
+ <br>
+
+ <label for="age">age:</label>
+  <input type="number" id="age" min="1" max="55" required><br>
+  <br>
+  <label for="email">email:</label>
+  <input type="email" id="email" required><br>
+  <label for="doj">date of joining:</label>
+  <input type="date" id="doj" required><br>
+  <label for="password">password:</label>
+  <input type="password" id="password" maxlength="8"required><br>
+  <p>Enter your shirt size:</p>
+  <input type="radio" id="small" name="shirt-size" value="small">
+  <label for="small">Small</label>
+  <input type="radio" id="medium" name="shirt-size" value="medium" checked name="medium">
+  <label for="medium">Medium</label>
+  <input type="radio" id="large" name="shirt-size" value="large">
+  <label for="large">Large</label>
+
+   <p>select known languages:</p>
+  <input type="checkbox" id="en" name="languages" value="english">
+  <label for="en">english</label>
+  <input type="checkbox" id="hi" name="languages" value="hindi" checked>
+  <label for="hi">hindi</label>
+  <input type="checkbox" id="ger" name="languages" value="german" checked>
+  <label for="ger">german</label>
+  <input type="checkbox" id="tel" name="languages" value="telugu">
+  <label for="tel">telugu</label>
+
+  <br><br>
+
+  <label for="color">Choose a color:</label>
+  <input type="color" id="color" name="color"><br>
+
+
+  <label for="paymentoption">Choose a payment option:</label>
+  <select id="paymentoption" name="paymentoption">
+    <option value="credit">Credit Card</option>
+    <option value="debit">Debit Card</option>
+    <option value="paypal">PayPal</option>
+    <option value="COD">Cash on Delivery</option> 
+
+  </select>
+ <br><br>
+  <label for="feedback">Provide feedback:</label>
+  <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+  <br><br>
+  <input type="reset">
+  <input type="submit" value="Submit">
+ <!--
+  <aside>
+  <h3>Note:</h3>
+  <p>1. All fields marked with * are mandatory.</p>
+  <p>2. Please ensure that the email address is valid.</p>
+  <p>3. Password must be at least 8 characters long.</p>
+ </aside>
+<nav>
+  <a href="https://www.w3schools.com/html/html_forms.asp">Learn more about HTML forms</a>
+</nav>
+<footer>
+  <p>&copy; 2023 Your Company. All rights reserved.</p>
+</footer>
+ -->
+  </form>
+</body> 
+</html>

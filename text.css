@@ -1,0 +1,111 @@
+.text-edit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 279px;
+    line-height: 23px;
+    margin-bottom:0px ;
+    margin-top:10px ;
+     
+  }
+   .view-edit{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgba(96,96,96);
+    margin-top: 0px;
+  
+  }
+   .video-author{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(96,96,96);
+    margin: 0;
+   }
+   .video-discription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 250, 29);
+    width: 279px;
+    line-height: 23px;
+    margin-bottom: 300px;
+   }
+   .apple{
+    font-size: medium;
+    margin-bottom: 56px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-decoration: underline;
+   }
+   .shop-link{
+    cursor: pointer;
+}
+
+    .shop-link:hover{
+      text-decoration: underline;
+    } 
+    /* reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body font & background */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* header/navigation */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* content area */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+}
+
+/* tables (since you have tables.html) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+/* simple responsive image */
+img {
+  max-width: 100%;
+  height: auto;
+}
